@@ -7,6 +7,7 @@ MERN base Setup + Tailwind.
 - **Node.js:** Nodejs (Version 18!).Download: [Node.js-Website](https://nodejs.org/).  
 - **MongoDB:** MongoDB sollte entweder lokal oder auf einem Server installiert sein. [MongoDB-Website](https://www.mongodb.com/).
 - **MongoDBAtlas:** auf [MongDB-Atlas](https://www.mongodb.com/de-de/cloud/atlas/lp/try4) gibt es kostenlos MongoDB Server die für das Projekt reichen sollten
+- **Postmen:** Um Request auch außerhalb des Browsers zu testen: [download](https://www.postman.com/downloads/)
 
 ## Installation:
 
