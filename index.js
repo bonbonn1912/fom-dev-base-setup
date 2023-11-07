@@ -29,11 +29,10 @@ server.use(bodyParser.urlencoded({ extended: true }))
 
 server.get("/test",handleGet)
 
-server.post("/gericht", (req, res) =>{
-    const name = "Hamburger"
-    const calories = "1000"
+server.post("/gerichte/add", (req, res) =>{
+    const { Gericht, calories } = req.body;
     UserHealthData.create({
-        Gericht: name, 
+        Gericht:Gericht,
         calories: calories
     })
     res.send("ok")
