@@ -1,6 +1,7 @@
 # Mein Node.js & React App
 
-MERN base Setup + Tailwind.
+MERN base Setup + Tailwind. 
+### (Update: 07.11.2023) Gerichte können direkt über das Frontend in die Datenbank geschrieben werden, kein Postmen mehr nötig.
 
 ## Voraussetzungen:
 
